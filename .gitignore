@@ -1,0 +1,13 @@
+.node
+node_modules/
+__pycache__/
+
+api/node
+api/node_modules/
+api/__pycache__
+frontend/node
+frontend/node_modules/
+frontend/__pycache__
+music_controller/node
+music_controller/node_modules/
+music_controller/__pycache__
