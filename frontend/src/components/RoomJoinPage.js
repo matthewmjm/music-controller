@@ -4,6 +4,12 @@ import { Link } from "react-router-dom";
 export default class RoomJoinPage extends Component {
 	constructor(props) {
 		super(props);
+		this.state = {
+			roomCode: "",
+			error: "",
+		};
+		this.handleTextFieldChange = this.handleTextFieldChange.bind(this);
+		this.roomButtonPressed = this.roomButtonPressed.bind(this);
 	}
 
 	render() {
