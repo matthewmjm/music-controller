@@ -15,4 +15,10 @@ export default class RoomJoinPage extends Component {
 	render() {
 		return <p>This is the join room page</p>;
 	}
+
+	handleTextFieldChange(e) {
+		this.setState({
+			roomCode: e.target.value,
+		});
+	}
 }
